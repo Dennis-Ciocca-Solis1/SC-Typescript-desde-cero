@@ -1,0 +1,31 @@
+//1. Instalar NVM (node version manager)
+
+//2. Instalar Nodejs (especificar version si se desea)
+	nvm install node 
+
+//3. Instalar NPM (especificar version si se desea)
+	npm install
+
+//4. Instalar Typescript (de manera global)
+	npm install -g typescript
+
+//5. Crear proyecto manualmente
+
+//6. Crear index.html y crear 1 o más script.ts
+
+//-----------------------------------------------------------------------------------------------------
+//7. En la terminal de VSCode escribir para transpilar el script de un solo archivo TS a Javascript
+	tsc script.ts -w
+	
+	Ó
+	
+//8. En la terminal de VSCode escribir para transpilar el script de todos los archivos TS a Javascript
+// creará el archivo tsconfig.json
+	tsc -init
+	
+	//luego
+	tsc -w
+
+//-----------------------------------------------------------------------------------------------------	
+//9.
+	
